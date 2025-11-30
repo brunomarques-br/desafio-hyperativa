@@ -1,0 +1,4 @@
+### GET request to example server
+GET http://localhost:8080/api/cards/exists?cardNumber=4456897999999999
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJicnVub0B2aXNhLmNvbSIsImlhdCI6MTc2NDQ0MjQwOSwiZXhwIjoxNzY0NTI4ODA5fQ.JHl1vVtWALtVM-5Ylrn4nG0K64QpX-irzn5uFFiMCgs
+###

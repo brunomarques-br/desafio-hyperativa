@@ -1,0 +1,13 @@
+### POST Upload File for Card Import TXT can be found in source project at this same folder: desafio-hyperativa.txt
+POST http://localhost:8080/api/files/upload?validateOnly=true
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJicnVub0B2aXNhLmNvbSIsImlhdCI6MTc2NDQ0MjQwOSwiZXhwIjoxNzY0NTI4ODA5fQ.JHl1vVtWALtVM-5Ylrn4nG0K64QpX-irzn5uFFiMCgs
+
+--WebAppBoundary
+Content-Disposition: form-data; name="file"; filename="desafio-hyperativa.txt"
+Content-Type: text/plain
+
+< desafio-hyperativa.txt
+--WebAppBoundary--
+
+###

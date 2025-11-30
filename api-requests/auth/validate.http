@@ -1,0 +1,3 @@
+### Validate Authentication Token Activity
+POST http://localhost:8080/api/auth/validate
+###

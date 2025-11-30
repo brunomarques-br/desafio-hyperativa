@@ -1,0 +1,4 @@
+###
+GET http://localhost:8080/api/log/all
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJicnVub0B2aXNhLmNvbSIsImlhdCI6MTc2NDQ0MjQwOSwiZXhwIjoxNzY0NTI4ODA5fQ.JHl1vVtWALtVM-5Ylrn4nG0K64QpX-irzn5uFFiMCgs
+###

@@ -1,0 +1,17 @@
+version: '3.8'
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: mysql-visa-challenge
+    environment:
+      MYSQL_ROOT_PASSWORD: v1s4Ch4ll3ng#r
+      MYSQL_DATABASE: challenge_db
+      MYSQL_USER: administrator
+      MYSQL_PASSWORD: v1s4Ch4ll3ng#r
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+
+volumes:
+  mysql_data:
